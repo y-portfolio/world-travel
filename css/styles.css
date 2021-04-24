@@ -108,7 +108,6 @@ main > section > h1 {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  /* padding-bottom: 56px; */
 }
 
 .container img {
@@ -121,7 +120,7 @@ main > section > h1 {
 }
 
 .way {
-  background: #f2f2f3;;
+  background: #f2f2f3;
   padding:64px 0 32px;
   text-align: center;
 }
@@ -253,4 +252,3 @@ footer p {
     display: none;
   }
 }
-
