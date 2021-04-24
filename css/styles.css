@@ -6,13 +6,14 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 16px;
-  max-width: 800px;
+  margin: 0;
+}
+
+#top-wrap {
   width: 100%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -88,7 +89,7 @@ header h1 {
   background-size: cover;
   background-position: left center;
   height: 300px;
-  margin-bottom: 64px;
+  margin-bottom: 30px;
 }
 
 main {
@@ -97,10 +98,10 @@ main {
 
 main > section > h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
-  padding: 72px 0 64px;
+  padding: 32px 0 34px;
 }
 
 .container {
@@ -110,31 +111,32 @@ main > section > h1 {
   padding-bottom: 56px;
 }
 
-.container section {
-  padding-bottom: 64px;
-}
-
 .container img {
   width: 100%;
 }
 
 .container .info {
   line-height: 1.8;
+  padding:0 15px
 }
 
 .way {
   background: #f2f2f3;;
-  padding-bottom: 64px;
+  padding:64px 0 64px;
+  text-align: center;
 }
 
 .way h1 {
-  padding-bottom: 64px;
-  text-align: center;
+  padding-bottom: 30px;
+}
+
+.way p {
+  padding: 0 15px;
 }
 
 .way ul {
   list-style-type: none;
-  text-align: center;
+  padding: 0;
 } 
 
 .way li {
@@ -168,6 +170,11 @@ footer p {
 }
 
 @media (min-width: 900px) {
+  #top-wrap {
+    width: 800px;
+    margin: 0 auto;
+  }
+
   .pc-menu {
     display: block;
     margin-left: auto;
@@ -191,9 +198,19 @@ footer p {
     background: #f2f2f2;
   }
 
+  #header-img {
+    margin-bottom: 64px;
+  }
+
+  main > section > h1 {
+    font-size: 24px;
+    padding: 72px 0 64px;
+  }
+
   .container section {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 64px;
   }
 
   .container section:nth-child(even) {
@@ -206,6 +223,11 @@ footer p {
 
   .container .info {
     width: calc(50% - 32px);
+    padding: 0;
+  }
+
+  .way p {
+    padding: 0;
   }
 
   .way ul {
@@ -218,7 +240,6 @@ footer p {
   .way li {
     width: 250px;
   }
-
 
   .sp-menu {
     display: none;
