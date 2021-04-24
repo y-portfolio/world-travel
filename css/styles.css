@@ -122,7 +122,7 @@ main > section > h1 {
 
 .way {
   background: #f2f2f3;;
-  padding:64px 0 64px;
+  padding:64px 0 0;
   text-align: center;
 }
 
@@ -224,6 +224,10 @@ footer p {
   .container .info {
     width: calc(50% - 32px);
     padding: 0;
+  }
+
+  .way {
+    padding:64px 0 64px;
   }
 
   .way p {
