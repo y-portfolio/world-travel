@@ -108,7 +108,7 @@ main > section > h1 {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 56px;
+  /* padding-bottom: 56px; */
 }
 
 .container img {
@@ -117,12 +117,12 @@ main > section > h1 {
 
 .container .info {
   line-height: 1.8;
-  padding:0 15px
+  padding:0 15px 64px;
 }
 
 .way {
   background: #f2f2f3;;
-  padding:64px 0 0;
+  padding:64px 0 32px;
   text-align: center;
 }
 
@@ -205,6 +205,10 @@ footer p {
   main > section > h1 {
     font-size: 24px;
     padding: 72px 0 64px;
+  }
+
+  .container {
+    padding-bottom: 56px;
   }
 
   .container section {
