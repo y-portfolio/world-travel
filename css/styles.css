@@ -8,6 +8,10 @@ body {
 header {
   padding: 0 16px;
   margin: 0;
+  background: #fff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 #top-wrap {
